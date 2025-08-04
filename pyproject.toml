@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "tabdiff"
+version = "0.1.0"
+description = "TabDiff"
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "2.0.1"
+torchvision = "0.15.2"
+torchaudio = "2.0.2"
+numpy = "<2"
+pandas = "*"
+scikit-learn = "*"
+scipy = "*"
+icecream = "*"
+xlrd = "*"
+tomli-w = "*"
+tomli = "2.0.1"
+category_encoders = "*"
+imbalanced-learn = "*"
+kaggle = "*"
+transformers = "*"
+datasets = "*"
+peft = "0.9.0"
+ml_collections = "*"
+sdmetrics = "*"
+prdc = "*"
+rdt = "*"
+openpyxl = "*"
+xgboost = "*"
+wandb = "0.17.3"
+kaleido = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
